@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fafafa"
+    tools:context="com.example.oluchianyabuike.quizapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/title"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="#26a69a"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/other"
+        android:layout_height="@dimen/other"
+        android:src="@drawable/icon_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:text="@string/desc"
+        android:textSize="@dimen/textSize"
+        android:textAllCaps="true"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textMultiLine"
+        android:layout_margin="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icon"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:onClick="toQuiz"
+        android:background="@drawable/button_shape"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
