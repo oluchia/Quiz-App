@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="title">Bon-voy-quiz</string>
+    <string name="desc">Where should you go on your next holiday?</string>
+    <string name="ques1"> Who are you travelling with?</string>
+    <string name="ques2"> How long are you going away for?</string>
+    <string name="ques3"> What are you looking forward too?</string>
+    <string name="ques4"> Do you love big cities?</string>
+    <string name="ques5"> How far are you willing to fly?</string>
+    <string name="ques6"> What is the first thing you pack?</string>
+</resources>
