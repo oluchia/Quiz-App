@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.oluchianyabuike.quizapp.MainActivity2">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/venice_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="@dimen/boxMargin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ques1"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:background="@color/background"/>
+
+        <RadioGroup
+            android:id="@+id/ques1_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_option1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Family"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_option1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Couple"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+            <RadioButton
+                android:id="@+id/radio_option1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alone"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+            <RadioButton
+                android:id="@+id/radio_option1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group of Friends"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="@dimen/boxMargin" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ques2"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:background="@color/background"/>
+
+        <RadioGroup
+            android:id="@+id/ques2_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_option2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekend"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_option2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Week"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+            <RadioButton
+                android:id="@+id/radio_option2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Month"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+            <RadioButton
+                android:id="@+id/radio_option2d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As long as possible"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="@dimen/boxMargin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ques3"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:background="@color/background"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_option3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beaches"
+            android:textSize="@dimen/optSize"
+            android:paddingLeft="@dimen/quesPadding"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox_option3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Museums and Galleries"
+            android:textSize="@dimen/optSize"
+            android:paddingLeft="@dimen/quesPadding" />
+
+        <CheckBox
+            android:id="@+id/checkbox_option3c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sight seeing"
+            android:textSize="@dimen/optSize"
+            android:paddingLeft="@dimen/quesPadding" />
+
+        <CheckBox
+            android:id="@+id/checkbox_option3d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nightlife"
+            android:textSize="@dimen/optSize"
+            android:paddingLeft="@dimen/quesPadding" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="@dimen/boxMargin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ques4"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:background="@color/background"/>
+
+        <RadioGroup
+            android:id="@+id/ques4_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_option4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not a fan"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_option4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Great for a couple of nights"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+            <RadioButton
+                android:id="@+id/radio_option4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small cities only"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+            <RadioButton
+                android:id="@+id/radio_option4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The bigger the better"
+                android:textSize="@dimen/optSize"
+                android:paddingLeft="@dimen/quesPadding" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="@dimen/boxMargin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ques6"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:background="@color/background"/>
+
+        <EditText
+            android:id="@+id/edit_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Books, camera..."
+            android:inputType="textMultiLine"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:onClick="toSubmit"
+        android:background="@drawable/button_shape"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/button" />
+
+</LinearLayout>
+</ScrollView>
